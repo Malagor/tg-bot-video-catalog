@@ -1,0 +1,22 @@
+{
+	"compilerOptions": {
+		"target": "es2020",
+		"module": "ESNext",
+		"rootDir": "./src",
+		"moduleResolution": "node",
+		// "baseUrl": "./",                                  /* Specify the base directory to resolve non-relative module names. */
+		"outDir": "./dist",
+		"resolveJsonModule": true,
+		/* Interop Constraints */
+		// "isolatedModules": true,                          /* Ensure that each file can be safely transpiled without relying on other imports. */
+		"allowSyntheticDefaultImports": true,
+		"esModuleInterop": true,
+		"forceConsistentCasingInFileNames": true,
+		"strict": true,
+		"skipLibCheck": true
+	},
+	"ts-node": {
+		"esm": true,
+		"experimentalSpecifierResolution": "node"
+	}
+}
